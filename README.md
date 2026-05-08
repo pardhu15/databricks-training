@@ -1,64 +1,62 @@
-# 🚀 Databricks Training
+# Week 1 - Databricks SQL Practice
 
-This repository is created to track my daily learning progress and hands-on practice during Databricks SQL training.
+## 📅 Progress
 
----
-
-## 📂 Repository Structure
-
-```text
-databricks-training/
-│
-├── week1/
-│   ├── day1/
-│   │   ├── queries.sql
-│   │   └── README.md
-│   │
-│   ├── day2/
-│
-└── README.md
-```
+| Day | Topics | Status |
+|-----|---------|--------|
+| Day 1 | SQL Basics and Practice | ✅ Completed |
+| Day 2 | SQL Queries and Operators Practice | ✅ Completed |
 
 ---
 
-## 📈 Progress Tracker
-
-| 📅 Week | 📘 Day | 📌 Status |
-|---|---|---|
-| Week 1 | Day 1 | ✅ Completed |
-
----
-
-## 📖 About Repository
-
-Each folder contains:
-
-- 📝 Practice Files
-- 💻 SQL Queries
-- 📚 Solutions
-- 📄 Daily README with explanation
+# 📘 Day 1 Topics
+- Introduction to SQL
+- Basic Queries
+- Table Creation
+- Insert Statements
+- Data Retrieval
+- Simple Filtering
 
 ---
 
-## 🛠️ Tools & Technologies
-
-- ⚡ Databricks
-- 🗄️ SQL
-- 🔧 Git
-- 🌐 GitHub
-
----
-
-## 🎯 Purpose
-
-- 📚 Track daily learning progress
-- 💡 Practice SQL concepts
-- 🚀 Improve query writing skills
-- 📂 Maintain organized training work
+# 📘 Day 2 Topics
+- SELECT Statements
+- WHERE Clause
+- GROUP BY
+- HAVING Clause
+- TOP Queries
+- DISTINCT Keyword
+- Comparison Operators
+- Logical Operators
+- IN and NOT IN
+- BETWEEN
+- LIKE Operator
 
 ---
 
-## 🙌 Author
+# 📂 Files Included
+- SQL practice queries
+- Employee table creation scripts
+- Insert statements
+- SQL operator practice programs
 
-**Pardhu**  
-🚀 Aspiring Data Engineer
+---
+
+# 🛠 Tools Used
+- Databricks
+- SQL
+- GitHub
+
+---
+
+# 🎯 Learning Outcome
+- Improved SQL query writing
+- Practiced filtering and grouping data
+- Learned aggregate functions
+- Worked with different SQL operators
+- Built hands-on SQL practice consistency
+
+---
+
+# 📌 Status
+✅ Week 1 Progress Updated
