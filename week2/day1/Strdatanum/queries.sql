@@ -1,4 +1,5 @@
 -- Q1
+
 select emp_name,
 upper(emp_name),
 lower(emp_name),
@@ -11,7 +12,9 @@ else 'Junior'
 end as emp_type
 from employee_payments;
 
+
 -- Q2
+
 select
 upper(customer_name) as customer,
 datediff(ifnull(delivery_date,current_date()),order_date) as delivery_days,
@@ -24,7 +27,9 @@ else 'Normal'
 end as status
 from orders_delivery;
 
+
 -- Q3
+
 select
 initcap(cust_name) as customer_name,
 monthname(purchase_date) as purchase_month,
@@ -36,6 +41,7 @@ when purchase_amount between 8000 and 15000 then 'Medium'
 else 'Low'
 end as spender_type
 from customer_spending;
+
 
 -- Q4
 
@@ -50,6 +56,7 @@ when datediff(end_date,current_date()) <=30 then 'Expiring Soon'
 else 'Active'
 end as status
 from subscriptions;
+
 
 -- Q5
 
