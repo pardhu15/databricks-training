@@ -1,16 +1,17 @@
-# Week 1 - Databricks SQL Practice
+# Databricks SQL Practice
 
 ## 📅 Progress
 
-| Day | Topics | Status |
-|-----|---------|--------|
-| Day 1 | SQL Basics and Practice | ✅ Completed |
-| Day 2 | SQL Queries and Operators Practice | ✅ Completed |
-| Day 3 | College Management System SQL Practice | ✅ Completed |
+| Week | Topics | Status |
+|------|---------|--------|
+| Week 1 | SQL Basics, Operators, CMS Practice | ✅ Completed |
+| Week 2 | Functions, NULL Handling, Joins, Date & Numeric Functions | ✅ Completed |
 
 ---
 
-# 📘 Day 1 Topics
+# 📘 Week 1 - SQL Fundamentals
+
+## Day 1 Topics
 - Introduction to SQL
 - Basic Queries
 - Table Creation
@@ -18,9 +19,7 @@
 - Data Retrieval
 - Simple Filtering
 
----
-
-# 📘 Day 2 Topics
+## Day 2 Topics
 - SELECT Statements
 - WHERE Clause
 - GROUP BY
@@ -33,9 +32,7 @@
 - BETWEEN
 - LIKE Operator
 
----
-
-# 📘 Day 3 Topics
+## Day 3 Topics
 - Joins
 - LEFT JOIN
 - Aggregate Functions
@@ -48,7 +45,7 @@
 - Ranking Functions
 - Analytical Queries
 
-## 📊 Window Functions Practiced
+### Window Functions Practiced
 - ROW_NUMBER()
 - RANK()
 - DENSE_RANK()
@@ -60,38 +57,87 @@
 
 ---
 
-# 📂 Files Included
-- SQL practice queries
-- Employee table creation scripts
-- Insert statements
-- SQL operator practice programs
-- College Management System SQL queries
-- Window function practice queries
+# 📘 Week 2 - Advanced SQL Functions
+
+## Day 1 Topics
+- String Functions
+- Numeric Functions
+- Date Functions
+- CASE Statements
+- Conditional Logic
+- Salary and Attendance Analysis
+
+## Day 2 Topics
+- NULL Handling
+- ISNULL()
+- COALESCE()
+- NULLIF()
+- IS NULL / IS NOT NULL
+- NULL Handling in Calculations
+
+## Day 3 Topics
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL OUTER JOIN
+- SELF JOIN
+- Multiple Table Joins
+- Employee and Project Analysis
+
+## Day 4 Topics
+- Date Functions
+- Timestamp Functions
+- Date Formatting
+- Date Arithmetic
+- Financial Year Logic
+- Business Date Queries
+
+## Day 5 Topics
+- Numeric Functions
+- Salary Calculations
+- Decimal Handling
+- Mathematical Functions
+- Random Number Functions
+- Maximum and Minimum Value Functions
 
 ---
 
-# 🛠 Tools Used
-- Databricks
-- SQL
-- GitHub
+# 🔧 SQL Functions Practiced
+
+- CASE
+- ISNULL()
+- COALESCE()
+- NULLIF()
+- CURDATE()
+- NOW()
+- DATE_FORMAT()
+- DATEDIFF()
+- TIMESTAMPDIFF()
+- ABS()
+- ROUND()
+- CEIL()
+- FLOOR()
+- MOD()
+- POWER()
+- SQRT()
+- RAND()
+- FORMAT()
+- GREATEST()
+- LEAST()
 
 ---
 
-# 🎯 Learning Outcome
-- Improved SQL query writing
-- Practiced filtering and grouping data
-- Learned aggregate functions
-- Worked with different SQL operators
-- Practiced joins and subqueries
-- Learned window functions
-- Built hands-on SQL practice consistency
+# 📂 Repository Structure
 
----
+```text
+week1/
+├── day1/
+├── day2/
+└── day3/
 
-# 📌 Status
-✅ Week 1 Progress Updated
-
----
-
-# 👨‍💻 Author
-**Pardhu Kilaparthi**
+week2/
+├── day1/
+├── day2/
+├── day3/
+├── day4/
+└── day5/
